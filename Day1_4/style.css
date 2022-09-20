@@ -1,0 +1,31 @@
+form
+{
+    color:rgb(153, 27, 169);
+    background-color: bisque;
+    text-align: center;
+    letter-spacing: 2px;
+    /* text-decoration:underline; */
+    border-style: none;
+    font-family:cursive;
+}
+/* label
+{
+   color:blue;
+   background-color: bisque;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+/* p;
+{
+    text-align: center;
+} */
+h1
+{
+    color: blue;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+body
+{
+    background-color:brown;
+}

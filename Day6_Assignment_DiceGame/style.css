@@ -1,0 +1,78 @@
+*
+{
+ margin: 0px;
+ padding: 0px;
+    
+
+}
+
+.container
+{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+.dice
+{
+    text-align: center;
+    display:inline-block;
+    margin-top: 90px;
+}
+
+.note
+{
+    display:block;
+   text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    font-size: 1rem;
+}
+
+h1
+{
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+p
+{
+   
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    text-shadow: 5px 5px 5px black;
+}
+
+img
+{
+    margin-top: 20px;
+    width: 50%;
+}
+
+footer
+{
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 80px;
+   font-style: italic;
+   text-decoration-style: wavy;
+
+}
+
+body::before
+{
+    content: "";
+    display:block;
+    position:absolute;
+    background: url(./Dice-bg.jpg) no-repeat center center/cover;
+    opacity: 0.9;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+}

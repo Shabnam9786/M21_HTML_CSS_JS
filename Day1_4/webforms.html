@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "style.css">
+        <title> Web Forms </title>
+    </head>
+    <body>
+        <h1>Facebook Page</h1>
+        <form>
+            <labelfor = "username">Login ID</labelfor></label>
+            <input type = "text" id = "username" placeholder="Ex: abc@gmail.com" required><br><br>
+            <labelfor = "password">Password</labelfor></label>
+            <input type = "password" id = "password" required><br><br>
+
+            <p>Gender</p>
+            <input type = "radio" name = "Gender" id = "option1">
+            <labelfor = "option1">male </labelfor></label><br>
+            <input type = "radio" name = "Gender" id = "option2">
+            <labelfor = "option2">female </labelfor></label><br>
+            <input type = "radio" name = "Gender" id = "option3">
+            <labelfor = "option3">other </labelfor></label><br><br>
+
+            <label for = "securityQuestion">Security Questions</label>
+            <select name = "security" id = "securityQuestion">
+                <option value="q1">Where were you born?</option>
+                <option value="q2">What is your mother's name?</option>
+                <option value="q3">Where do you live?</option>
+            </select>
+            <br><br>
+            <label for = "answer">Write your answer here</label>
+            <input type = "text" id = "answer"><br><br>
+
+            <laber for = "bio">Your Bio</laber><br>
+            <textarea name = "bio" id = "bio" cols = "60" rows =  "10" placeholder="Write about you..."></textarea>
+            <input type = "submit" value = "Submit"><br><br>
+
+
+
+        </form>
+    </body>
+</html>    
